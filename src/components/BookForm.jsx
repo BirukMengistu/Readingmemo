@@ -10,7 +10,7 @@ const NewBookForm = () => {
     e.preventDefault();
     //console.log(title, author);
     dispatch({type: 'ADD_BOOK' ,
-              book: { title ,author} 
+              book: { title , author} 
             });
     setTitle('');
     setAuthor('');
